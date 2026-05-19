@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adiós a la "Panza" y la Inflamación - Salud y Bienestar Diario</title>
+    
+    <!-- Shopify SEO y metadatos estándar (opcional pero recomendado) -->
+    {{ content_for_header }}
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['Merriweather', 'serif'],
+                        sans: ['Open Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            blue: '#1E3A8A',
+                            green: '#10B981',
+                            accent: '#F59E0B',
+                            cta: '#E11D48'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .article-body p { margin-bottom: 1.5rem; }
+        .article-body h2 { margin-top: 2.5rem; margin-bottom: 1rem; }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800 antialiased">
+
+    <!-- Top Bar / Fake News Header (Sin opciones de navegación para evitar fugas) -->
+    <header class="bg-white border-b-4 border-brand-blue shadow-sm sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-4 py-3 flex justify-center items-center md:justify-start">
+            <div class="flex items-center space-x-2">
+                <svg class="w-8 h-8 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+                </svg>
+                <span class="font-serif font-bold text-xl tracking-tight text-gray-900">Salud & Bienestar Hoy</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-4 py-8 flex flex-col md:flex-row gap-8">
+        
+        <!-- Main Article Column -->
+        <article class="md:w-2/3 bg-white p-6 md:p-10 rounded-xl shadow-sm border border-gray-100">
+            
+            <!-- Headline Section -->
+            <div class="mb-8">
+                <span class="inline-block bg-blue-100 text-brand-blue font-bold px-3 py-1 rounded-full text-xs mb-4 uppercase tracking-wider">Investigación Especial</span>
+                <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight font-serif mb-4">
+                    Adiós a la "Panza" y la Inflamación: El Secreto de las Enzimas Digestivas para Recuperar tu Bienestar
+                </h1>
+                <p class="text-xl text-gray-600 font-serif italic mb-6">
+                    ¿Te sientes como un globo después de comer? Descubre cómo unas heroínas microscópicas están ayudando a miles de personas a desinflamar su abdomen y comer sin miedo.
+                </p>
+                <div class="flex items-center space-x-4 border-t border-b border-gray-100 py-3">
+                    <img src="https://images.unsplash.com/photo-1594824406567-2ca1812845c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Autor" class="w-12 h-12 rounded-full object-cover">
+                    <div>
+                        <p class="font-bold text-sm text-gray-900">Por Dra. Elena Montes, Nutrición Clínica</p>
+                        <p class="text-xs text-gray-500">Actualizado: <span id="currentDate"></span> | 4 min de lectura</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Image -->
+            <figure class="mb-8">
+                <img src="https://images.unsplash.com/photo-1559564075-802c6b325255?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Mujer con dolor estomacal" class="w-full h-auto rounded-lg shadow-md object-cover" style="max-height: 400px;">
+                <figcaption class="text-xs text-center text-gray-500 mt-2">La inflamación abdominal afecta a más del 60% de los adultos diariamente.</figcaption>
+            </figure>
+
+            <!-- Article Body -->
+            <div class="article-body font-serif text-lg text-gray-800 leading-relaxed">
+                <p>¿Te has sentido frustrado al terminar de comer y notar que tu abdomen se inflama como un globo? La temida "panza", la sensación de pesadez, los gases y la inflamación estomacal son molestias cotidianas que afectan a millones de personas.</p>
+                
+                <p>A menudo, culpamos a ciertos alimentos o a las porciones que ingerimos, pero la verdadera raíz del problema podría no estar en <em>qué</em> comes, sino en <strong>cómo lo digieres</strong>. Aquí es donde entran en juego unas heroínas microscópicas: <strong>las enzimas digestivas</strong>.</p>
+
+                <h2 class="text-2xl font-bold font-sans text-brand-blue">¿Qué son exactamente las enzimas digestivas?</h2>
+                <p>Imagina que las enzimas son unas "tijeras biológicas" de alta precisión. Su trabajo principal es descomponer los macronutrientes complejos que ingerimos (carbohidratos, proteínas y grasas) en fragmentos diminutos que nuestro intestino pueda absorber fácilmente y enviar al torrente sanguíneo para darnos energía.</p>
+                
+                <p>Nuestro cuerpo produce estas enzimas de forma natural en la saliva, el estómago y, de forma masiva, en el páncreas. Sin embargo, el estrés, el envejecimiento o dietas inadecuadas pueden disminuir su producción.</p>
+
+                <div class="bg-red-50 border-l-4 border-red-500 p-5 my-8 rounded-r-lg">
+                    <p class="font-bold text-red-800 m-0 text-xl">⚠️ El Peligro Oculto:</p>
+                    <p class="text-red-700 m-0 mt-2">Cuando no hay suficientes enzimas, los alimentos no se descomponen correctamente y llegan intactos al intestino grueso, donde las bacterias los fermentan. <strong>El resultado de esta fermentación es lo que todos odiamos: gases, hinchazón, dolor y esa molesta "panza" post-comida.</strong></p>
+                </div>
+
+                <h2 class="text-2xl font-bold font-sans text-brand-blue">El fin de la inflamación y la distensión abdominal</h2>
+                <p>La suplementación y el consumo de enzimas digestivas han demostrado ser herramientas increíblemente eficaces para combatir la pesadez estomacal. Estudios clínicos rigurosos han medido físicamente la reducción de la "panza".</p>
+
+                <blockquote class="text-2xl italic font-bold text-center text-gray-600 my-8 px-8 border-y-2 border-gray-200 py-6">
+                    "Los participantes que tomaron una mezcla de enzimas digestivas experimentaron un <span class="text-brand-green">58% menos de distensión abdominal</span> a los 30 minutos de comer, y hasta un 68% menos a los 90 minutos."
+                </blockquote>
+
+                <p>Para lograr este confort, cada enzima tiene una misión específica:</p>
+                <ul class="space-y-4 my-6 font-sans">
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-brand-green mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span><strong>Amilasas:</strong> Descomponen los carbohidratos. Si los almidones te caen pesados, esta enzima los convierte en azúcares simples.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-brand-green mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span><strong>Lipasas:</strong> Son las encargadas de digerir las grasas. Si sientes náuseas o pesadez excesiva tras una comida rica en grasas (como frituras o queso), la lipasa es tu mejor aliada.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-brand-green mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span><strong>Lactasa:</strong> Específica para descomponer la lactosa de los lácteos, evitando los gases y la diarrea en personas intolerantes.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-6 h-6 text-brand-green mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span><strong>Alfa-galactosidasa:</strong> El antídoto contra los gases que producen los frijoles, las legumbres y verduras como el brócoli.</span>
+                    </li>
+                </ul>
+
+                <!-- Mid-article CTA usando la variable Liquid -->
+                <div class="text-center my-10">
+                    <a href="{{ cta_url }}" class="inline-block bg-brand-cta hover:bg-red-700 text-white font-sans font-bold text-xl py-4 px-8 rounded-lg shadow-lg transform transition hover:-translate-y-1 w-full md:w-auto">
+                        DESCUBRE CÓMO OBTENER ESTAS ENZIMAS HOY &raquo;
+                    </a>
+                </div>
+
+                <h2 class="text-2xl font-bold font-sans text-brand-blue">El poder antiinflamatorio sistémico: Más allá del estómago</h2>
+                <p>El impacto positivo de las enzimas no se limita a desinflamar tu vientre. Algunas enzimas de origen vegetal, específicamente la <strong>bromelina</strong> (extraída del tallo de la piña) y la <strong>papaína</strong> (de la papaya), tienen propiedades antiinflamatorias excepcionales.</p>
+                
+                <p>A diferencia de otras enzimas, estas pueden absorberse en el intestino y pasar al torrente sanguíneo manteniendo su actividad. Una vez en la sangre, <strong>ejercen una potente acción antiinflamatoria sistémica, reduciendo marcadores de inflamación crónica (como la Interleucina-6) e incluso aliviando el dolor en articulaciones</strong>. Por lo tanto, no solo calman la inflamación de tu tracto digestivo, sino que protegen a tu cuerpo de la inflamación generalizada.</p>
+
+                <h2 class="text-2xl font-bold font-sans text-brand-blue">¿Cómo integrar las enzimas a tu vida para combatir los síntomas?</h2>
+                <p>Existen dos vías principales para aprovechar sus beneficios y volver a disfrutar de la comida sin miedo:</p>
+                
+                <ol class="list-decimal pl-6 space-y-4 mb-8 font-sans font-semibold">
+                    <li><strong>A través de alimentos naturales:</strong> Puedes incorporar a tu dieta frutas como la piña y la papaya preferiblemente crudas, además de mango, aguacate, miel cruda y fermentados como el kéfir.</li>
+                    <li><strong>Mediante suplementos digestivos:</strong> Si sufres de digestiones muy pesadas, los complejos multienzimáticos son una solución práctica y respaldada por la ciencia. La clave del éxito es tomarlas justo antes o en el primer bocado de tu comida.</li>
+                </ol>
+
+                <!-- THE PITCH: Transition to Product -->
+                <div id="oferta" class="bg-gradient-to-br from-blue-50 to-green-50 p-8 rounded-2xl border border-blue-100 shadow-inner my-10 font-sans">
+                    <h3 class="text-2xl font-extrabold text-gray-900 mb-4 text-center">La Solución Recomendada por Nuestros Editores</h3>
+                    <p class="mb-6 text-center">Si estás buscando recuperar tu libertad alimentaria, la forma más rápida y efectiva es combinando el poder de las Enzimas Digestivas con Probióticos de alta calidad.</p>
+                    
+                    <div class="flex flex-col md:flex-row items-center gap-8 mb-6 bg-white p-6 rounded-xl shadow-md cursor-pointer" onclick="window.location.href='{{ cta_url }}'">
+                        <div class="w-full md:w-1/3">
+                            <div class="bg-gray-100 rounded-lg p-4 flex items-center justify-center border-2 border-brand-green border-dashed h-48 relative overflow-hidden">
+                                <span class="text-brand-green font-bold text-center z-10 relative bg-white/80 px-2 py-1 rounded">Kit Oura Labs<br>Probióticos + Enzimas</span>
+                                <!-- Nota Liquid: Para usar la imagen real de tu producto en Shopify, reemplazarías la etiqueta img de abajo por algo como: {{ 'imagen-producto.jpg' | asset_img_url: '600x' }} -->
+                                <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Suplemento" class="absolute inset-0 w-full h-full object-cover opacity-60 mix-blend-multiply transition hover:scale-105 duration-500">
+                            </div>
+                        </div>
+                        <div class="w-full md:w-2/3">
+                            <h4 class="text-xl font-bold text-brand-blue mb-2">Kit Salud Intestinal de Oura Labs</h4>
+                            <p class="text-sm text-gray-600 mb-4">La fórmula de Oura Labs ha revolucionado el mercado latino. Combina exactamente las enzimas que necesitas (Amilasa, Lipasa, Proteasa, Bromelina, Papaína) junto con cepas probióticas patentadas para no solo digerir la comida de hoy, sino reparar tu flora intestinal para el mañana.</p>
+                            <ul class="text-sm space-y-2 mb-4 font-bold text-gray-800">
+                                <li>✅ Elimina la pesadez y los gases en minutos.</li>
+                                <li>✅ Aumenta la absorción de nutrientes.</li>
+                                <li>✅ Calidad Premium y biodisponibilidad probada.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <a href="{{ cta_url }}" class="block w-full text-center bg-brand-cta hover:bg-red-700 text-white font-extrabold text-2xl py-5 px-6 rounded-xl shadow-[0_10px_20px_rgba(225,29,72,0.3)] transform transition hover:scale-105 animate-pulse">
+                        SÍ, QUIERO DESINFLAMAR MI ABDOMEN AHORA
+                        <span class="block text-sm font-normal mt-1 text-red-100">Haz clic para verificar disponibilidad y descuentos</span>
+                    </a>
+                </div>
+
+                <h2 class="text-2xl font-bold font-sans text-brand-blue">Recupera tu libertad alimentaria</h2>
+                <p>Sufrir de inflamación estomacal, gases o ver cómo tu abdomen se expande después de almorzar no tiene por qué ser tu "estado normal". Apoyar a tu cuerpo con enzimas digestivas optimiza la extracción de nutrientes, evita la fermentación que causa la "panza" y promueve un bienestar digestivo profundo.</p>
+                
+                <p>Si estás cansado de las molestias gastrointestinales, darle un impulso enzimático a tu organismo podría ser el paso definitivo hacia una vida más ligera, desinflamada y llena de energía.</p>
+            </div>
+
+            <!-- Fake Comments Section (Social Proof) -->
+            <div class="mt-12 pt-8 border-t border-gray-200">
+                <h3 class="font-sans font-bold text-2xl mb-6">Comentarios Recientes (14)</h3>
+                
+                <div class="space-y-6">
+                    <div class="flex gap-4">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=50&q=80" alt="Avatar" class="w-12 h-12 rounded-full">
+                        <div>
+                            <p class="font-bold font-sans text-sm">Carmen R. <span class="text-gray-400 font-normal text-xs ml-2">Hace 2 horas</span></p>
+                            <p class="text-gray-700 text-sm mt-1">Llevo años sufriendo de colon irritable y esa pesadez horrible. Compré el kit de Oura Labs la semana pasada y la diferencia es del cielo a la tierra. ¡Ya puedo cenar sin parecer embarazada!</p>
+                            <div class="text-xs text-gray-500 mt-2 font-bold cursor-pointer hover:text-brand-blue">Me gusta (42) • Responder</div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex gap-4">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=50&q=80" alt="Avatar" class="w-12 h-12 rounded-full">
+                        <div>
+                            <p class="font-bold font-sans text-sm">Javier M. <span class="text-gray-400 font-normal text-xs ml-2">Hace 5 horas</span></p>
+                            <p class="text-gray-700 text-sm mt-1">No sabía que existían las enzimas, pensaba que solo los probióticos ayudaban. Voy a pedir el kit para probar, me urge deshacerme de esta panza inflamada.</p>
+                            <div class="text-xs text-gray-500 mt-2 font-bold cursor-pointer hover:text-brand-blue">Me gusta (18) • Responder</div>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center text-brand-blue font-bold">L</div>
+                        <div>
+                            <p class="font-bold font-sans text-sm">Laura Gómez <span class="text-gray-400 font-normal text-xs ml-2">Hace 1 día</span></p>
+                            <p class="text-gray-700 text-sm mt-1">Excelente artículo. El doctor me había recomendado papaína, pero tener todas las enzimas juntas en este producto es mucho más práctico. ¡Súper recomendado!</p>
+                            <div class="text-xs text-gray-500 mt-2 font-bold cursor-pointer hover:text-brand-blue">Me gusta (89) • Responder</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Sidebar / Sticky CTA (Desktop only) -->
+        <aside class="hidden md:block md:w-1/3">
+            <div class="sticky top-24 bg-white p-6 rounded-xl shadow-md border border-gray-100">
+                <h3 class="font-bold text-xl text-center text-gray-900 mb-4">¿Cansado de la Inflamación?</h3>
+                <img src="https://images.unsplash.com/photo-1542868727-463259e5e771?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Salud" class="w-full h-48 object-cover rounded-lg mb-4">
+                <p class="text-sm text-gray-600 mb-6 text-center">Únete a las miles de personas que han recuperado su salud digestiva con el <strong>Kit de Oura Labs</strong>.</p>
+                <a href="{{ cta_url }}" class="block w-full text-center bg-brand-green hover:bg-green-600 text-white font-bold text-lg py-3 px-4 rounded-lg shadow-md transition">
+                    Ver Oferta Especial Hoy
+                </a>
+                <p class="text-xs text-center text-gray-400 mt-3 flex justify-center items-center">
+                    <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                    Compra 100% Segura
+                </p>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Footer Disclaimer -->
+    <footer class="bg-gray-900 text-gray-400 py-10 mt-12 text-sm text-center px-4">
+        <div class="max-w-4xl mx-auto">
+            <p class="mb-4"><strong>*ADVERTORIAL:</strong> Esta página es un publirreportaje patrocinado y no representa un artículo de noticias real. Los resultados mencionados pueden variar de persona a persona.</p>
+            <p class="mb-4">La información proporcionada en este sitio es para fines educativos y no pretende sustituir el consejo, diagnóstico o tratamiento médico profesional. Siempre busque el consejo de su médico u otro proveedor de salud calificado con cualquier pregunta que pueda tener sobre una condición médica.</p>
+            <div class="flex justify-center space-x-4 mt-6">
+                <a href="/policies/terms-of-service" class="hover:text-white">Términos de Servicio</a>
+                <span>|</span>
+                <a href="/policies/privacy-policy" class="hover:text-white">Política de Privacidad</a>
+            </div>
+            <p class="mt-6">&copy; <span id="year"></span> Salud & Bienestar Hoy. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById('currentDate').textContent = new Date().toLocaleDateString('es-ES', options);
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
